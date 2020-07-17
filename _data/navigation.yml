@@ -1,0 +1,13 @@
+# main links links
+main:
+  - title: "Product"
+    url: /product/
+
+  - title: "Mission"
+    url: /mission/    
+
+  - title: "Team"
+    url: /team/    
+    
+  - title: "Contact"
+    url: /contact/

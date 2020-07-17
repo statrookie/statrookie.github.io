@@ -1,0 +1,71 @@
+/*
+    Custom CSS
+
+    StatRookie Grey = #4A4A45
+    StatRookie Dark Grey 2 = #33312C
+    StatRookie Yellow = #F0DD1A
+
+*/
+
+/* BODY */
+body {
+    min-height: 75rem;
+    padding-top: 50px;
+    background: #4A4A45 !important;
+    color:white !important;
+  }
+
+/* NAV */
+nav {
+    background-color: #33312C;
+}
+
+/* FOOTER */
+footer {
+    background-color: #33312C;
+    color: white;
+    padding: 20px;
+}
+
+/* Class Container */
+.container{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+
+
+/* SOCIAL BUTTONS */
+ul li a i {
+    background: white;
+    color: white;
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 15px;
+    padding-top: 10%;
+   
+   
+    /* color of social buttons */
+    background: #F0DD1A;
+   }
+
+.social {
+    overflow: auto;
+    width: 100%;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+   }
+   
+.social li {
+    list-style-type: none;
+    float: right;
+    font-size: 48px;
+   
+   }
+
+   
