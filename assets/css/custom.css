@@ -9,22 +9,48 @@
 
 /* BODY */
 body {
-    min-height: 75rem;
-    padding-top: 50px;
+    /* pushes the start of the body below the fixed navbar */
+    padding-top: 90px;
+
+    /* overrides the bootstrap background and text color */
     background: #4A4A45 !important;
     color:white !important;
+
+    font-family: Interstate !important;
+    font-style: normal;
   }
 
 /* NAV */
 nav {
     background-color: #33312C;
+    font-family: Interstate;
+    font-weight: 700;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 16pt;
+    
+}
+
+.nav-item{
+    padding-right: 20px;
+}
+
+a {
+    color: white !important;
+}
+
+a:hover{
+    color: yellow !important;
 }
 
 /* FOOTER */
 footer {
     background-color: #33312C;
     color: white;
-    padding: 20px;
+    /* padding: 20px; */
+    font-family: Interstate;
 }
 
 /* Class Container */
@@ -33,19 +59,30 @@ footer {
     padding-top: 50px;
 }
 
+.row {
+    padding-bottom:20px;
+}
+.col {
+    padding:15px;
+}
 
+
+ol, ul {    
+    padding-left: 0 !important;
+}
 
 
 /* SOCIAL BUTTONS */
 ul li a i {
     background: white;
     color: white;
-    width: 65px;
-    height: 65px;
+    width: 40px;
+    height: 40px;
     font-size: 20px;
     text-align: center;
-    margin-left: 15px;
+    margin-right: 10px;
     padding-top: 10%;
+    border-radius: 5px;
    
    
     /* color of social buttons */
@@ -63,8 +100,8 @@ ul li a i {
    
 .social li {
     list-style-type: none;
-    float: right;
-    font-size: 48px;
+    float: left;
+    font-size: 32px;
    
    }
 
