@@ -13,8 +13,8 @@ body {
     padding-top: 90px;
 
     /* overrides the bootstrap background and text color */
-    background: #4A4A45 !important;
-    color:white !important;
+    /* background: #4A4A45 !important; */
+    /* color:white !important; */
 
     font-family: Interstate !important;
     font-style: normal;
@@ -59,11 +59,14 @@ footer {
     padding-top: 50px;
 }
 
-.row {
+/* .row {
     padding-bottom:20px;
-}
-.col {
-    padding:15px;
+} */
+
+#mission {
+    background-color: #33312C;
+    font-weight: 800;
+    
 }
 
 
@@ -86,7 +89,7 @@ ul li a i {
    
    
     /* color of social buttons */
-    background: #F0DD1A;
+    background: #FFD000;
    }
 
 .social {
