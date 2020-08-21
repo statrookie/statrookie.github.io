@@ -43,7 +43,7 @@ a {
 }
 
 a:hover{
-    color:  #FFD000 !important;
+    color:  #F0DD1A !important;
 }
 
 /* FOOTER */
@@ -78,8 +78,8 @@ ol, ul {
 
 /* SOCIAL BUTTONS */
 ul li a i {
-    background: white;
-    color: white;
+    background: #33312C;
+    color: #33312C;
     width: 40px;
     height: 40px;
     font-size: 20px;
@@ -90,7 +90,7 @@ ul li a i {
    
    
     /* color of social buttons */
-    background: #FFD000;
+    background: #F0DD1A;
    }
 
 .social {
