@@ -4,6 +4,7 @@
     StatRookie Grey = #4A4A45
     StatRookie Dark Grey 2 = #33312C
     StatRookie Yellow = #F0DD1A
+    StatRookie Black = #121210
 
 */
 
@@ -22,7 +23,8 @@ body {
 
 /* NAV */
 nav {
-    background-color: #33312C;
+    background-color: #121210;
+    /* background-color: black; */
     font-family: Interstate;
     font-weight: 700;
 }
@@ -39,7 +41,7 @@ nav {
 
 
 a {
-    color: black !important;
+    color: #121210 !important;
 }
 
 a:hover{
@@ -48,7 +50,7 @@ a:hover{
 
 /* FOOTER */
 footer {
-    background-color: #33312C;
+    background-color: #121210;
     color: white;
     /* padding: 20px; */
     font-family: Interstate;
@@ -65,7 +67,7 @@ footer {
 } */
 
 #mission {
-    background-color: #33312C;
+    background-color: #121210;
     font-weight: 800;
     
 }
@@ -79,7 +81,7 @@ ol, ul {
 /* SOCIAL BUTTONS */
 ul li a i {
     background: #33312C;
-    color: #33312C;
+    color: #121210;
     width: 40px;
     height: 40px;
     font-size: 20px;
@@ -90,7 +92,7 @@ ul li a i {
    
    
     /* color of social buttons */
-    background: #F0DD1A;
+    background: white;
    }
 
 .social {
