@@ -82,14 +82,15 @@ ol, ul {
 ul li a i {
     background: #33312C;
     color: #121210;
+
+    /* Width and height of social boxes */
     width: 40px;
     height: 40px;
-    font-size: 20px;
+
     text-align: center;
     margin-right: 10px;
-    padding-top: 10%;
+    padding-top: 5px;
     border-radius: 5px;
-   
    
     /* color of social buttons */
     background: white;
@@ -114,6 +115,7 @@ ul li a i:hover{
 .social li {
     list-style-type: none;
     float: left;
+    vertical-align: middle;
     font-size: 32px;
    
    }
