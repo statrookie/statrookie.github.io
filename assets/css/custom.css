@@ -95,6 +95,13 @@ ul li a i {
     background: white;
    }
 
+ul li a i:hover{
+   
+    /* color of social buttons */
+    background: #F0DD1A;
+    /* color: white; */
+   }
+
 .social {
     overflow: auto;
     width: 100%;
