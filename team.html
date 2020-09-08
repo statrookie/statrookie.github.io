@@ -8,38 +8,37 @@ permalink: /team/
 <img src="/assets/images/thin-headers/bb-play.png" width="100%">
 
 <main class="container">
-    <div class="row">
-        <h1>Meet the team!</h1>
 
-        <p>Our StatRookie team is comprised of talented individuals who are also passionate about sports. Our goal is
-            to deliver a great product that will teach and engage fans in sports analytics and stategy.
-        </p>
+    <div class="row">
+        <h1>Meet the StatRookie team!</h1>
+
+        <h3>Our all-star team of talented designers and analysts make our product possible. </h3>
     </div>
 
     <!-- Loop over team.yml -->
     {% for member in site.data.team %}
-        <div class="row">
-            <div class="col">
-                <div class="card mb-3 border-0">
-                    <div class="row g-0">
-                        <div class="col-md-4 p-2">
-                            <img src="{{ member.image }}" class="rounded-circle" width="95%"
-                                alt="{{ member.alt }}">
-                        </div>
-                        <div class="col-md-8 p-2 d-flex align-items-center">
-                            <div class="card-body">
-                                <h3 class="card-title">{{ member.name }}</h3>
-                                <h5 class="card-title">{{ member.role }}</h5>
-                                <p class="card-text">{{ member.bio }}</p>
-                                {% if member.twitter %}
-                                <p class="card-text"><a href="http://www.twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a></p>
-                                {% endif %}
-                            </div>
+    <div class="row">
+        <div class="col">
+            <div class="card mb-3 border-0">
+                <div class="row g-0">
+                    <div class="col-md-4 p-2">
+                        <img src="{{ member.image }}" class="rounded-circle" width="95%" alt="{{ member.alt }}">
+                    </div>
+                    <div class="col-md-8 p-2 d-flex align-items-center">
+                        <div class="card-body">
+                            <h3 class="card-title">{{ member.name }}</h3>
+                            <h5 class="card-title">{{ member.role }}</h5>
+                            <p class="card-text">{{ member.bio }}</p>
+                            {% if member.twitter %}
+                            <p class="card-text"><a
+                                    href="http://www.twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a></p>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     {% endfor %}
 
 </main>
